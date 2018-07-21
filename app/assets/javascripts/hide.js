@@ -1,4 +1,3 @@
 function hideWhenClicked() {
-  document.getElementById("hide_this").innerHTML = "";
+  $("hide_this").innerHTML = "";
 }
-
