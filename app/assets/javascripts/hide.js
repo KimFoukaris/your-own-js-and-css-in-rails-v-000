@@ -1,3 +1,5 @@
 function hideWhenClicked() {
-  $("hide_this").innerHTML = "";
+  $(document).ready(function(){
+    $("hide_this").hide();
+    });
 }
